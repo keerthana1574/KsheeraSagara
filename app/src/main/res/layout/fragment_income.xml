@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add Milk Record" android:textSize="24sp" android:textStyle="bold"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Date" android:layout_marginTop="16dp"/>
+        <TextView android:id="@+id/tvDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="06-05-2026" android:textSize="16sp"/>
+
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/etCowName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Cow ID / Name (Optional)"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="8dp" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/etLiters" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Milk (Litres)" android:inputType="numberDecimal"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/etFat" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Fat (%)" android:inputType="numberDecimal"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/etBaseRate" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Base Rate (per point/kg)" android:inputType="numberDecimal"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Estimated Payment" android:layout_marginTop="8dp"/>
+        <TextView android:id="@+id/tvEstimatedPayment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹0.00" android:textSize="20sp" android:textStyle="bold"/>
+
+        <Button android:id="@+id/btnSaveIncome" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="+ Save Entry" android:layout_marginTop="16dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Recent Entries" android:textSize="18sp" android:textStyle="bold" android:layout_marginTop="24dp"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerRecentIncome" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false"/>
+
+    </LinearLayout>
+</ScrollView>

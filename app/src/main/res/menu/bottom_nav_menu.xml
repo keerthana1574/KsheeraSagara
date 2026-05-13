@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/dashboardFragment" android:icon="@android:drawable/ic_dialog_info" android:title="Dashboard"/>
+    <item android:id="@+id/incomeFragment" android:icon="@android:drawable/ic_menu_add" android:title="Income"/>
+    <item android:id="@+id/expensesFragment" android:icon="@android:drawable/ic_menu_delete" android:title="Expenses"/>
+    <item android:id="@+id/analyticsFragment" android:icon="@android:drawable/ic_menu_view" android:title="Analytics"/>
+    <item android:id="@+id/reportsFragment" android:icon="@android:drawable/ic_menu_save" android:title="Reports"/>
+</menu>

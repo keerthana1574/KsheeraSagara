@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Warm Color Palette -->
+    <color name="orange_200">#FFCC80</color>
+    <color name="orange_500">#FF9800</color>
+    <color name="orange_700">#F57C00</color>
+    <color name="amber_200">#FFE082</color>
+    <color name="amber_700">#FFA000</color>
+
+    <!-- Pie chart colors -->
+    <color name="pie_fodder">#FF9800</color>
+    <color name="pie_medicine">#F44336</color>
+    <color name="pie_labor">#2196F3</color>
+    <color name="pie_electricity">#FFEB3B</color>
+    <color name="pie_misc">#9E9E9E</color>
+
+    <!-- Pie chart color array -->
+    <array name="pieColors">
+        <item>@color/pie_fodder</item>
+        <item>@color/pie_medicine</item>
+        <item>@color/pie_labor</item>
+        <item>@color/pie_electricity</item>
+        <item>@color/pie_misc</item>
+    </array>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.ksheerasagara.ui.DashboardFragment"
+        android:label="Dashboard" />
+    <fragment
+        android:id="@+id/incomeFragment"
+        android:name="com.example.ksheerasagara.ui.IncomeFragment"
+        android:label="Income" />
+    <fragment
+        android:id="@+id/expensesFragment"
+        android:name="com.example.ksheerasagara.ui.ExpensesFragment"
+        android:label="Expenses" />
+    <fragment
+        android:id="@+id/analyticsFragment"
+        android:name="com.example.ksheerasagara.ui.AnalyticsFragment"
+        android:label="Analytics" />
+    <fragment
+        android:id="@+id/reportsFragment"
+        android:name="com.example.ksheerasagara.ui.ReportsFragment"
+        android:label="Reports" />
+</navigation>

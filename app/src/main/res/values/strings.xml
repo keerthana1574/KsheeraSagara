@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Ksheera Sagara</string>
+
+    <!-- Dashboard Strings -->
+    <string name="net_profit_loss">Net Profit / Loss</string>
+    <string name="default_rupee_zero">₹ 0.00</string>
+
+    <!-- Income Screen Strings -->
+    <string name="add_milk_income">➕ Add Milk Income</string>
+    <string name="cow_id_hint">Cow ID (0 for general)</string>
+    <string name="liters_hint">Liters of milk</string>
+    <string name="fat_percent_hint">Fat %</string>
+    <string name="add_income">Add Income</string>
+
+    <!-- Expense Screen Strings -->
+    <string name="add_expense_title">Add Expense</string>
+    <string name="date_label">Date</string>
+    <string name="select_date">Select Date</string>
+    <string name="default_date">06-05-2026</string>
+    <string name="amount_hint">Amount (₹)</string>
+    <string name="cow_id_optional">Cow ID (Optional)</string>
+    <string name="cow_name_optional">Cow Name (Optional)</string>
+    <string name="description_optional">Description (Optional)</string>
+    <string name="save_expense">+ Save Expense</string>
+    <string name="recent_expenses">Recent Expenses</string>
+
+    <!-- Old expense strings (keep for compatibility) -->
+    <string name="add_expense">💰 Add Expense</string>
+    <string name="add_expense_button">Add Expense</string>
+
+    <!-- Report Screen Strings -->
+    <string name="generate_pdf">📄 Generate Monthly PDF</string>
+
+    <!-- Navigation Drawer Strings -->
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <!-- Expense Categories -->
+    <string-array name="expense_categories">
+        <item>Fodder</item>
+        <item>Medicine</item>
+        <item>Labor</item>
+        <item>Electricity</item>
+        <item>Misc</item>
+    </string-array>
+</resources>
