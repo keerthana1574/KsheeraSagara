@@ -242,7 +242,7 @@ GitHub: keerthana1574
 Project Repository: KsheeraSagara
 
 📄 APK Download
-  ![Download Ksheera Sagara APK]([https://img.shields.io/badge/License-Academic-blue](https://storage.googleapis.com/nammayantra-apk/app-release.apk))
+   - ![Download Ksheera Sagara APK](https://storage.googleapis.com/ksheera-apk-bucket/app-release.apk)
 
 
 
