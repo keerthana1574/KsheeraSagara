@@ -70,13 +70,9 @@ git clone https://github.com/keerthana1574/KsheeraSagara.git
 cd KsheeraSagara
 Step 2: Add Firebase Configuration
 Create a project in Firebase Console
-
 Register your Android app with package name com.example.ksheerasagara
-
 Download google-services.json and place it in the app/ folder
-
 Enable Authentication (Email/Password) in Firebase Console
-
 Enable Firestore Database (start in test mode)
 
 Step 3: Build and Run
@@ -141,55 +137,39 @@ service cloud.firestore {
 🧪 How to Use the App
 1. Create an Account
 Tap "New user? Create Account"
-
 Enter Name, Email, Password (min 6 characters)
-
 After registration, login with your credentials
 
 2. Add Milk Income
 Go to Income tab
-
 Enter Cow ID / Name (optional)
-
 Enter Milk (liters), Fat (%), Base Rate
-
 Estimated payment appears automatically
-
 Tap + SAVE ENTRY
 
 3. Add Expense
 Go to Expenses tab
-
 Select date, category, amount
-
 Optional: Cow ID, Cow Name, Description
-
 Tap + SAVE EXPENSE
 
 4. View Dashboard
 See NET PROFIT/LOSS (green = profit, red = loss)
-
 View total income and expenses
-
 Check recent transactions
 
 5. Analytics
 Expense Distribution - Pie chart by category
-
 Cow-wise Profit/Loss - Bar chart per animal
 
 6. Generate PDF Report
 Go to Reports tab
-
 Select month/year
-
 Tap DOWNLOAD REPORT
-
 PDF saved to device storage
 
 7. Logout
 Tap menu (☰) icon
-
 Tap Logout
 
 📊 Data Flow
@@ -201,15 +181,10 @@ Each user's data is isolated using their unique userId in Firestore.
 
 🔄 Future Enhancements
 AI-based feed optimization recommendations
-
 Predictive profitability alerts
-
 Multi-language support (Kannada, Hindi)
-
 WhatsApp report sharing
-
 Cloud backup with Google Drive
-
 Home screen widget for quick profit view
 
 👨‍💻 Developer Information
@@ -227,7 +202,7 @@ GitHub: keerthana1574
 
 Project Repository: KsheeraSagara
 📄 APK Download
-![Download Ksheera Sagara APK](https://storage.googleapis.com/ksheera-apk-bucket/app-release.apk)
+APK Download: [Download Namma-Yantra APK](https://storage.googleapis.com/ksheera-apk-bucket/app-release.apk)
 
 
 
