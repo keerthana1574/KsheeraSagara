@@ -230,7 +230,7 @@ GitHub: keerthana1574
 Project Repository: KsheeraSagara
 
 📄 APK Download
-Download Ksheera Sagara APK
+[Download Ksheera Sagara APK](https://storage.googleapis.com/ksheera-apk-bucket/app-release.apk)
 
 Scan the QR code or click the link to download the latest version.
 
