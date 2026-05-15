@@ -4,9 +4,6 @@
 ![Kotlin](https://img.shields.io/badge/Kotlin-1.9.22-purple)
 ![Firebase](https://img.shields.io/badge/Firebase-Auth%20%7C%20Firestore-orange)
 ![License](https://img.shields.io/badge/License-Academic-blue)
-[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen)](https://storage.googleapis.com/ksheera-apk-bucket/app-release.apk)
-
----
 
 ## 📌 Project Overview
 
@@ -14,20 +11,17 @@
 
 ### 🎯 Problem Statement
 
-Despite India being the world's largest milk producer, with over 80 million dairy farmers contributing to an industry worth more than ₹12 lakh crore annually, most dairy farmers operate without any formal financial tracking system. While milk income is documented through cooperative society slips, **expenses are almost never systematically recorded**.
-
-This creates a critical blind spot where farmers unknowingly operate at a loss despite consistent milk production.
+Despite India being the world's largest milk producer, most dairy farmers operate without any formal financial tracking system. While milk income is recorded through cooperative society slips, **expenses are almost never systematically recorded**. This creates a critical blind spot where farmers unknowingly operate at a loss despite consistent milk production.
 
 ### 💡 Solution
 
 Ksheera Sagara bridges this gap by providing an intuitive mobile interface that enables farmers to:
-
-- ✅ Log daily milk income with fat percentage and auto-calculation
-- ✅ Record categorized expenses (Fodder, Medicine, Labor, Electricity, Misc)
-- ✅ Instantly visualize net profit/loss through color-coded indicators
-- ✅ Analyze cow-wise profitability
-- ✅ Generate monthly PDF reports
-- ✅ Work completely offline in rural low-bandwidth environments
+- Log daily milk income with fat percentage and auto-calculation
+- Record categorized expenses (Fodder, Medicine, Labor, Electricity, Misc)
+- Instantly visualize net profit/loss through color-coded indicators
+- Analyze cow-wise profitability
+- Generate monthly PDF reports
+- Work completely offline in rural low-bandwidth environments
 
 ---
 
@@ -47,20 +41,6 @@ Ksheera Sagara bridges this gap by providing an intuitive mobile interface that 
 
 ---
 
-## 📱 Screenshots
-
-| Login Screen | Dashboard | Income Entry |
-|--------------|-----------|--------------|
-| *[Add your screenshot here]* | *[Add your screenshot here]* | *[Add your screenshot here]* |
-
-| Expenses | Analytics | Reports |
-|----------|-----------|---------|
-| *[Add your screenshot here]* | *[Add your screenshot here]* | *[Add your screenshot here]* |
-
-> 📸 **Note:** Replace placeholder images with actual screenshots from your app.
-
----
-
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
@@ -72,6 +52,20 @@ Ksheera Sagara bridges this gap by providing an intuitive mobile interface that 
 | **MPAndroidChart** | Pie charts & bar charts |
 | **iText7** | PDF report generation |
 | **Material Design 3** | UI components |
+
+---
+
+## 📱 Screenshots
+
+| Login Screen | Dashboard | Income Entry |
+|--------------|-----------|--------------|
+| *[Add your screenshot]* | *[Add your screenshot]* | *[Add your screenshot]* |
+
+| Expenses | Analytics | Reports |
+|----------|-----------|---------|
+| *[Add your screenshot]* | *[Add your screenshot]* | *[Add your screenshot]* |
+
+> 📸 **Note:** Replace placeholder images with actual screenshots from your app.
 
 ---
 
@@ -105,30 +99,12 @@ bash
 # Sync Gradle files
 # Connect an Android device (API 24+) or start emulator
 # Click Run (▶️)
-📱 Download & Installation
-Download APK
-Method	Link
-Direct Download	Click to download Ksheera Sagara APK
-Installation Steps
-Download the APK using the link above on your Android phone
+Alternative: Install APK Directly
+Download the APK from the link below and install on your Android phone:
 
-Locate the file in your Downloads folder
-
-Tap on the APK file
-
-Allow "Install from unknown sources" if prompted:
-
-Settings → Security → Unknown sources → Enable
-
-Or tap "Settings" on the popup and enable for your browser
-
-Tap "Install"
-
-Open the app and create your account
-
-📌 Requirements: Android 7.0 (API 24) or higher
-
-⚠️ Troubleshooting: If the download link doesn't work, ensure the APK is public in your Google Cloud Storage bucket.
+text
+[Insert your Cloud Storage or Firebase Hosting URL here]
+⚠️ Note: Enable "Install from unknown sources" in your phone settings.
 
 📁 Project Structure
 text
@@ -159,7 +135,8 @@ KsheeraSagara/
 ├── build.gradle.kts                       # Project dependencies
 ├── gradle-wrapper.properties              # Gradle version
 └── README.md                              # This file
-🔧 Firebase Security Rules
+🔧 Configuration
+Firebase Security Rules
 javascript
 rules_version = '2';
 service cloud.firestore {
@@ -263,6 +240,12 @@ Email: kkpmahadev8@gmail.com
 GitHub: keerthana1574
 
 Project Repository: KsheeraSagara
+
+📄 APK Download
+  ![Download Ksheera Sagara APK]([https://img.shields.io/badge/License-Academic-blue](https://storage.googleapis.com/nammayantra-apk/app-release.apk))
+
+
+
 
 🙏 Acknowledgments
 MPAndroidChart library for beautiful charts
