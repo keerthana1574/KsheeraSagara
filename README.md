@@ -55,20 +55,6 @@ Ksheera Sagara bridges this gap by providing an intuitive mobile interface that 
 
 ---
 
-## 📱 Screenshots
-
-| Login Screen | Dashboard | Income Entry |
-|--------------|-----------|--------------|
-| *[Add your screenshot]* | *[Add your screenshot]* | *[Add your screenshot]* |
-
-| Expenses | Analytics | Reports |
-|----------|-----------|---------|
-| *[Add your screenshot]* | *[Add your screenshot]* | *[Add your screenshot]* |
-
-> 📸 **Note:** Replace placeholder images with actual screenshots from your app.
-
----
-
 ## 🚀 Installation & Setup
 
 ### Prerequisites
