@@ -232,7 +232,7 @@ Project Repository: KsheeraSagara
 ## 📄 APK Download
 
 ### Direct Download Link
-[⬇️ **Click here to download Ksheera Sagara APK**](https://storage.googleapis.com/ksheera-apk-bucket/app-release.apk)
+![⬇️ **Click here to download Ksheera Sagara APK**](https://storage.googleapis.com/ksheera-apk-bucket/app-release.apk)
 
 > **Installation Instructions:**
 > 1. Click the link above on your Android phone
