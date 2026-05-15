@@ -229,10 +229,20 @@ GitHub: keerthana1574
 
 Project Repository: KsheeraSagara
 
-📄 APK Download
-[Download Ksheera Sagara APK](https://storage.googleapis.com/ksheera-apk-bucket/app-release.apk)
+## 📄 APK Download
 
-Scan the QR code or click the link to download the latest version.
+### Direct Download Link
+[⬇️ **Click here to download Ksheera Sagara APK**](https://storage.googleapis.com/ksheera-apk-bucket/app-release.apk)
+
+> **Installation Instructions:**
+> 1. Click the link above on your Android phone
+> 2. Tap "Download" 
+> 3. Open the downloaded file
+> 4. If prompted, allow "Install from unknown sources"
+> 5. Tap "Install"
+> 6. Open the app and create an account
+
+> ⚠️ **Note:** Make sure the APK is made public in your Google Cloud Storage bucket. If the link doesn't work, check bucket permissions.
 
 🙏 Acknowledgments
 MPAndroidChart library for beautiful charts
