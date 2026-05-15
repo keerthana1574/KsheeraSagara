@@ -228,21 +228,20 @@ Home screen widget for quick profit view
 
 👨‍💻 Developer Information
 Detail	Information
-Name	Keerthana M
-USN	1AP22CS022
-College	APS College of Engineering
-Course	Android App Development using GenAI
-Project Number	29
-Group	Prospectors g5
+Name	: Keerthana M
+USN :	1AP22CS022
+College :	APS College of Engineering
+Course	 : Android App Development using GenAI
+Project Number :	29
+Group :	Prospectors g5
 📞 Contact
 Email: kkpmahadev8@gmail.com
 
 GitHub: keerthana1574
 
 Project Repository: KsheeraSagara
-
 📄 APK Download
-   - ![Download Ksheera Sagara APK](https://storage.googleapis.com/ksheera-apk-bucket/app-release.apk)
+![Download Ksheera Sagara APK](https://storage.googleapis.com/ksheera-apk-bucket/app-release.apk)
 
 
 
